@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36417cf7-53ce-41a4-888f-208c77a28b63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,9 +16,18 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="229">
+              <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+              <folding>
+                <element signature="e#563#671#0#PHP" expanded="true" />
+                <element signature="e#699#916#0#PHP" expanded="true" />
+                <element signature="e#933#1304#0#PHP" expanded="true" />
+                <element signature="e#1319#1389#0#PHP" expanded="true" />
+                <element signature="e#1399#1472#0#PHP" expanded="true" />
+                <element signature="e#1491#1630#0#PHP" expanded="true" />
+                <element signature="e#1728#2427#0#PHP" expanded="true" />
+                <element signature="e#2618#3094#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,8 +40,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/text.txt" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -108,12 +115,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510562730742</updated>
-      <workItem from="1510562736642" duration="15218000" />
+      <workItem from="1510562736642" duration="16195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15218000" />
+    <option name="totallyTimeSpent" value="16195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="93" width="1067" height="586" extended-state="0" />
@@ -159,9 +166,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="229">
+          <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+          <folding>
+            <element signature="e#563#671#0#PHP" expanded="true" />
+            <element signature="e#699#916#0#PHP" expanded="true" />
+            <element signature="e#933#1304#0#PHP" expanded="true" />
+            <element signature="e#1319#1389#0#PHP" expanded="true" />
+            <element signature="e#1399#1472#0#PHP" expanded="true" />
+            <element signature="e#1491#1630#0#PHP" expanded="true" />
+            <element signature="e#1728#2427#0#PHP" expanded="true" />
+            <element signature="e#2618#3094#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

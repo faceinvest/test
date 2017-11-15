@@ -1,30 +1,30 @@
-<?php
+<?php/*
 $xmlstr = "<?xml version='1.0' standalone='yes' ?>".
     "<movies><movie>".
     "<title>Notre-Damme Des Paris</title>".
-    "</movie></movies>";
+    "</movie></movies>";*/
 
 
 //$xml = new SimpleXMLElement($xmlstr);
 
 /*echo $xml->movie[0]->title;*/
 
-$sxe = new SimpleXMLElement($xmlstr);
+//$sxe = new SimpleXMLElement($xmlstr);
 /*$result = $sxe->xpath('/movies/movie/title'); //Array ( [0] => SimpleXMLElement Object ( [0] => Notre-Damme Des Paris ) )
 print_r($result);*/
 
-$movie = $sxe->addChild('movie');
-$movie->addChild('title', 'Magic World');
+//$movie = $sxe->addChild('movie');
+//$movie->addChild('title', 'Magic World');
 //$movie->title = 'Magic World 2';
 
-echo $sxe->asXML();
+//echo $sxe->asXML();
 ?>
 
-<?php
+<?php/*
 $hosts = gethostbynamel('localhost');
 print_r($hosts);
 $hosts = gethostbyaddr($hosts);
-print_r($hosts);
+print_r($hosts);*/
 ?>
     <br>
 
@@ -32,20 +32,19 @@ print_r($hosts);
     <br>
 
 
-<?
+<?/*
 header("Content-type: image/png");
 $im = imagecreate(100, 100);
 $bg = imagecolorallocate($im, 255,255,255);
 $red = imagecolorallocate($im, 255,0,0);
 imagefilledrectangle($im, 10, 10, 90, 90, $red);
-imagepng($im);
+imagepng($im);*/
 ?>
 
+<br>
 
-    <br>
 
-
-<?php
+<?php/*
 $num = 10%4;
 $num_pow = pow($num,2);
 print $num_pow;
@@ -63,43 +62,42 @@ print $real." ".$float." ".$double;
 
 $num = 5.625874;
 for ($i=4;$i>2;$i--) print $i;
-for ($i=4;$i>2;--$i) print $i;
+for ($i=4;$i>2;--$i) print $i;*/
 
 ?>
 <br>
-<?php
+<?php/*
 $var1 = "1value";
 $var2 = &$var1;
 $var1 = $var1 +12;
-print $var2;
+print $var2;*/
 
 ?>
-<?php
+<?php/*
 unlink('sample.xsl');
 $lines = filesize('sample.xsl');
-print $lines;
+print $lines;*/
 
 ?>
     <br>
-<?php
+<?php/*
 $im = imagecreate(100, 150);
 $bg = imagecolorallocate($im, 255,255,255);
 print  imagesx($im)."x".imagesy($im);
 
-$num = mt_rand(1,100);
+$num = mt_rand(1,100);*/
 
 
 ?>
-    <br>
-<?php
+    <br>/*
 $str = 'abcdef';
 $shuffled = str_shuffle($str);
-echo $shuffled;
+echo $shuffled;*/
 ?>
 <br>
 
 <?php
-
+/*
 function func(&$var)
 {
     $var++; ++$var;
@@ -143,7 +141,7 @@ $array1 = array('blue' => 1, 'red' => 2, 'green'=>3, 'purple'=>4);
 $array2 = array('gren'=> 5, 'blue'=>6, 'yellow'=>7, 'cyan'=>8);
 
 var_dump(array_intersect_ukey($array1, $array2, 'key_compare_func'));
-
+*/
 
 ?>
 <form action="" method="post">
@@ -152,7 +150,7 @@ var_dump(array_intersect_ukey($array1, $array2, 'key_compare_func'));
     <input type="submit">
 
 </form>
-<?php
+<?php /*
 print_r($_POST);
 
 function foo()
@@ -184,7 +182,7 @@ $type = is_nan($num);
 if (is_bool($type)) print 'kjdflkbjndlfkb';
 $foo ='';
 echo $foo[bar];
-
+*/
 
 ?>
 
@@ -194,3 +192,10 @@ echo $foo[bar];
 </script>
 
 <a href="http://www.certifications.ru/resume/212475"> jklgjkhf </a>
+
+<?
+
+$file = fopen("text.txt", "r");
+print $file;
+
+?>
